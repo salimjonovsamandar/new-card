@@ -2,4 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  background-image: url(../img/Picture.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 126px;
+}
+.hero__text h2 {
+  color: #1e255e;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 480px;
+}
+.hero__text p {
+  color: rgba(30, 37, 94, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 480px;
+  margin-top: 20px;
+}
+.hero__text button {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: #0061fe;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border: none;
+  margin-top: 60px;
+  margin-bottom: 194px;
+  transition: all 0.5s;
+}
+.hero__text button:hover {
+  background: transparent;
+  border: 1px solid #0061fe;
+  color: #0061fe;
 }/*# sourceMappingURL=main.css.map */

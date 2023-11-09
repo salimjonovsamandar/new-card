@@ -1,0 +1,44 @@
+.hero__text {
+  h2 {
+    color: #1e255e;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 480px;
+  }
+  p {
+    color: rgba(30, 37, 94, 0.7);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 480px;
+    margin-top: 20px;
+  }
+  button {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    border-radius: 100px;
+    background: #0061fe;
+
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 194px;
+    transition: all 0.5s;
+    &:hover{
+        background: transparent;
+        border: 1px solid #0061fe;
+        color: #0061fe;
+    }
+  }
+}
